@@ -26,7 +26,7 @@ public class HelloServletTest
 		try
 		{
 			System.out.println("Entered Testing environmenet");
-			driver.get("https://pubsub-1.appspot.com/");
+			driver.get("https://test-dot-pubsub-1.appspot.com/");
 			Assert.assertEquals("PapaJohns", driver.getTitle());
 			//Assert.fail("Not yet implemented");
 		}
