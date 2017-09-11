@@ -5,7 +5,7 @@ import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Test;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 
 import junit.framework.Assert;
 
@@ -14,7 +14,7 @@ public class HelloServletTest
 	static WebDriver driver;
 	@BeforeClass
 	public void setUp() throws Exception {
-		driver = new FirefoxDriver();
+		driver=new HtmlUnitDriver();
 	}
 	@AfterClass
 	public static void cleanUp(){
