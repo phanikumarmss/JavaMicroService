@@ -30,7 +30,7 @@ public class HelloServletTest
 		{
 			System.out.println("Entered Testing environmenet");
 			driver.get("https://pubsub-1.appspot.com/");
-			Assert.assertEquals("PapaJohns", driver.getTitle());
+			Assert.assertEquals("PapaJohns-L", driver.getTitle());
 		}
 		catch (Exception e) {
             e.printStackTrace();
