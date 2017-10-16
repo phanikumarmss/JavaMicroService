@@ -35,7 +35,8 @@ public class HelloServlet extends HttpServlet {
   @Override
   public void doGet(HttpServletRequest req, HttpServletResponse resp) throws IOException {
     PrintWriter out = resp.getWriter();
-    out.println("<html><title>PapaJohns-L</title><body>Welcome to PapaJohnn's Loyalty Development</body><html>");
+    resp.sendRedirect("index.html");
+    //out.println("<html><title>PapaJohns-L</title><body>Welcome to PapaJohnn's Loyalty Development</body><html>");
   }
 }
 // [END example]
