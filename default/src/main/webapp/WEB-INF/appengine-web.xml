@@ -17,5 +17,8 @@
   <application>papajohns-jenkins</application>
   <version>3</version>
   <threadsafe>true</threadsafe>
+  <manual-scaling>
+    <instances>1</instances>
+  </manual-scaling>
 </appengine-web-app>
 <!-- [END config] -->
