@@ -10,6 +10,7 @@ import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 public class HelloServletTest 
 {	
 	static WebDriver driver;
+	
 	@BeforeClass
 	public void setUp() throws Exception {
 		//driver = new FirefoxDriver();
