@@ -30,7 +30,7 @@ public class HelloServletTest
 		{
 			System.out.println("Entered Testing environmenet");
 			driver.get("https://pubsub-1.appspot.com/");
-			Assert.assertEquals("Google App Engine Change", driver.getTitle());
+			Assert.assertEquals("Google App Engine", driver.getTitle());
 		}
 		catch (Exception e) {
             e.printStackTrace();
