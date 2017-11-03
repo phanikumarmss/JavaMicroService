@@ -35,7 +35,7 @@ public class HelloServlet extends HttpServlet {
 		PrintWriter out = resp.getWriter();
 		//RequestDispatcher rd = req.getRequestDispatcher("index.jsp");
 		//rd.forward(req, resp);
-		out.println("<html><title>PapaJohns-L</title><body>Welcome to PapaJohnn's Loyalty Development</body><html>");
+		out.println("<html><title>PapaJohns</title><body>Welcome to PapaJohnn's Loyalty Development</body><html>");
 	}
 	catch(Exception e)
 	{
