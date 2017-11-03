@@ -32,10 +32,10 @@ public class HelloServlet extends HttpServlet {
   public void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException{
 	try
 	{
-		//PrintWriter out = resp.getWriter();
-		RequestDispatcher rd = req.getRequestDispatcher("index.jsp");
-		rd.forward(req, resp);
-		//out.println("<html><title>PapaJohns-L</title><body>Welcome to PapaJohnn's Loyalty Development</body><html>");
+		PrintWriter out = resp.getWriter();
+		//RequestDispatcher rd = req.getRequestDispatcher("index.jsp");
+		//rd.forward(req, resp);
+		out.println("<html><title>PapaJohns-L</title><body>Welcome to PapaJohnn's Loyalty Development</body><html>");
 	}
 	catch(Exception e)
 	{
